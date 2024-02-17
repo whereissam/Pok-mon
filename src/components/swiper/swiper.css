@@ -1,110 +1,65 @@
-/* .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-  } */
-
-/* .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 60%;
-    height: 40%;
-    object-fit: cover;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .swiper-slide {
-    background-size: cover;
-    background-position: center;
-  } */
-
-/* .mySwiper2 {
-    height: 80%;
-    width: 100%;
-  }
-  
-  .mySwiper {
-    height: 20%;
-    box-sizing: border-box;
-    padding: 10px 0;
-  }
-  
-  .mySwiper .swiper-slide {
-    width: 25%;
-    height: 100%;
-    opacity: 0.4;
-  }
-  
-  .mySwiper .swiper-slide-thumb-active {
-    opacity: 1;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-  }
-   */
-
-.mySwiperDown {
-  /* height: 20%; */
-  box-sizing: border-box;
-  padding: 10px 0;
-}
-
-.mySwiperDown .swiper-slide {
-  /* width: 25%; */
-  height: 100%;
-  opacity: 0.4;
-}
-
-.mySwiperDown .swiper-slide-thumb-active {
-  opacity: 1;
-}
-
-.mySwiperDown .swiper-slide img {
-  display: block;
-  /* width: 100%;
-    height: 20%; */
-  object-fit: cover;
-}
-
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 1000px;
   height: 500px;
+}
+
+.mySwiperTop {
+  height: 35rem;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-active {
+  transition-duration: 0ms;
+  transform: translate3d(-0.528293px, 0px, -0.950928px) rotateX(0deg)
+    rotateY(0deg) scale(1.5);
+  z-index: 1;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-prev > img {
+  opacity: 0.4;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-prev > img {
+  opacity: 0.4;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-prev {
+  transition-duration: 0ms;
+  transform: translate3d(299.221px, 0px, -538.598px) rotateX(0deg) rotateY(0deg)
+    scale(0.7);
+  z-index: -2;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-next > img {
+  opacity: 0.4;
+}
+
+.mySwiperTop > .swiper-wrapper > .swiper-slide-next {
+  z-index: -2;
+  transition-duration: 0ms;
+  transform: translate3d(-300.804px, 0px, -541.448px) rotateX(0deg)
+    rotateY(0deg) scale(0.7);
+}
+
+.swiper-free-mode {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.swiper-free-mode .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.swiper-free-mode .swiper-slide-thumb-active {
+  border: 1px black solid;
+  opacity: 1;
+}
+
+.swiper-free-mode > .swiper-wrapper > .swiper-slide > img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
 }
