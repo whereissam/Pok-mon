@@ -1,0 +1,36 @@
+name: Pokemon CI
+run-name: ${{ github.actor }} trigger the CI jobs
+on:
+  - push
+  - pull_request
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        node-version: ['18.x', '20.x']
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup NodeJS version
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache Bun dependencies (optional)
+        uses: actions/cache@v3
+        with:
+          path: ~/.bun/cache
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Run install
+        run: |
+          curl https://install.bun.io | bash
+          bun install
+
+      - name: Run unit tests
+        run: bun test
