@@ -9,8 +9,9 @@
     "allowJs": true,
     "importHelpers": true,
     "allowSyntheticDefaultImports": true,
-    "moduleResolution": "Node10"
+    "moduleResolution": "Node10",
+    "outDir": "dist"
   },
-  "include": ["src"],
+  // "include": ["src"],
   "exclude": ["node_modules", "tmp"]
 }
