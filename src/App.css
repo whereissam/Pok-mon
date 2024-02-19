@@ -9,3 +9,16 @@
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
 }
+
+.threeDCard {
+  transform: perspective(1500px);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  transition: transform 1s ease 0s;
+  /* background: linear-gradient(135deg, #f4dabf 50%, #1e5f75 50.1%); */
+}
+
+.threeDCard:hover {
+  transform: perspective(3000px) rotateY(15deg);
+  /* transform : scale3d(1, 1, 1); */
+}

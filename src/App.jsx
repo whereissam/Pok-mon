@@ -1,36 +1,28 @@
 import './App.css';
 import MenuNavigation from './components/MenuNavigation';
 import SwiperComponent from './components/swiper/swiper';
-
-// interface ImageItem {
-//   name: string;
-//   link: string;
-// }
+import PokemonTabs from './components/tabs/pokemonTabs';
 
 function App() {
   const imgList = [
     {
-      name: 'HOME',
+      name: 'Alex',
       link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
-      name: 'BLOCKCHAIN',
+      name: 'Mario',
       link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
-      name: 'ROADMAP',
+      name: 'Ueder',
       link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
-      name: 'COMMUNITY',
+      name: 'Max',
       link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
     {
-      name: 'TEAM1',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    },
-    {
-      name: 'TEAM2',
+      name: 'Travis',
       link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     },
   ];
@@ -39,115 +31,85 @@ function App() {
     <>
       <MenuNavigation />
       <main className="flex flex-col h-screen">
+        {/* //cover */}
         <section>
-          <img
-            className="w-full h-auto"
-            src="https://images.unsplash.com/photo-1690123629470-845b87224313?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Girl in a jacket"
-          />
-
           <div className="section-content ">
-            <div className="relative flex overflow-x-hidden border-y-8 bg-[#F7BC1A] border-black">
-              <div className="py-12 animate-marquee whitespace-nowrap">
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
+            <img
+              className="w-full h-[110vh] object-cover"
+              src="https://images.unsplash.com/photo-1690123629470-845b87224313?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Girl in a jacket"
+            />
+            <div className="relative -top-5 text-5xl font-extrabold flex overflow-x-hidden rotate-[0.5deg] border-b-8 bg-[#F7BC1A] border-black">
+              <div className="py-2 animate-marquee whitespace-nowrap">
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
               </div>
 
-              <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-4xl mx-4">POKÉMONPIKACHU</span>
+              <div className="absolute top-0 py-2 animate-marquee2 whitespace-nowrap">
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
+                <span className="mx-4">POKÉMONPIKACHU</span>
               </div>
             </div>
           </div>
         </section>
 
+        {/* //BLOCKCHAIN */}
         <section>
           <div className="section-content h-screen">
             <div className="text-title-section" id="BLOCKCHAIN">
               BLOCKCHAIN
             </div>
-            {/* <img
-              src="./src/assets/section2bg.png"
-              className="about"
-              alt="about"
-            /> */}
-            <div className="flex">
-              <div className="bg-yellow-400 w-1/3 h-screen flex gap-4 justify-center">
-                <div className="bg-orange-800 w-1/3 h-1/2 flex flex-col gap-4">
-                  <div className="bg-yellow-800 h-32"></div>
-                  <div className="bg-yellow-900 h-32"></div>
-                </div>
-                <div className="bg-orange-200 w-96 h-96">
-                  <div className="bg-orange-500 w-96 h-80"></div>
-                  <div className="flex gap-4 mt-2">
-                    <div className="rounded-full bg-orange-500 w-16 h-16"></div>
-                    <div className="rounded-full bg-orange-500 w-16 h-16"></div>
-                    <div className="rounded-full bg-orange-500 w-16 h-16"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-1/3  h-screen">
-                <img
-                  className="z-10"
-                  src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
-                  alt=""
-                />
-              </div>
-              <div className="bg-red-200 w-1/3 h-screen">
-                <div className="h-1/2 start-6 flex flex-col justify-center">
-                  <div className="relative -rotate-[15deg] h-[15%]">
-                    <p className="fill absolute -top-32" data-text="GENOS">
-                      GENOS
-                    </p>
-                  </div>
-                  <div className="h-2/3">
-                    <p className="ml-28 font-extrabold text-7xl">
-                      CONNECT WALLET
-                    </p>
-                    <p className="h-[10%] ml-28">
-                      Participate in or Airdrop Participate in our Airdrop
-                      Pioneer P
-                    </p>
-                  </div>
-                </div>
-                <div className="h-1/2">
-                  <div className="bg-[#F7BC1A] w-full h-10 flex justify-center items-center font-extrabold text-2xl">
-                    <p>START TEH MISSIONS</p>
-                  </div>
-                  <div className="flex flex-wrap gap-1 justify-evenly w-full">
-                    {imgList?.map(item => {
-                      return (
-                        <div
-                          key={item.name}
-                          className="relative bg-red-100 transform -skew-x-3 h-[200px] w-[100px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
-                        >
-                          <img
-                            className="object-cover h-48 w-96"
-                            src={item.link}
-                            alt={item.name}
-                          />
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            </div>
+            <PokemonTabs />
           </div>
         </section>
 
+        {/* //LEARN MORE */}
         <section>
-          <div className="section-content h-[200vh]">
-            <div className="w-full flex justify-center mb-4">
+          <div className="section-content relative mt-32 h-[200vh]">
+            <div className="w-full flex justify-center py-12">
               <p className="flex justify-center items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                 LEARN MORE
               </p>
+            </div>
+            <div className="absolute h-24 bottom-16 -start-32 w-[900px] text-6xl font-extrabold -z-10 transform rotate-[20deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
+              <div className="py-6 animate-marquee whitespace-nowrap ">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+              </div>
+
+              <div className="absolute top-0 py-6 animate-marquee2 whitespace-nowrap">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+              </div>
+            </div>
+            <div className="absolute top-32 py-2 -end-12 w-[800px] -z-10 transform rotate-[20deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
+              <div className="py-1 animate-marquee whitespace-nowrap">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+              </div>
+
+              <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+              </div>
             </div>
             <div className="flex justify-between my-6">
               <div className="w-1/4"></div>
@@ -189,7 +151,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between my-6">
+            <div className="flex justify-between my-32">
               <div className="flex items-center w-3/4">
                 <div className="bg-red-500 h-[450px] w-full flex flex-row justify-center">
                   <div className="w-1/2">
@@ -272,8 +234,9 @@ function App() {
           </div>
         </section>
 
+        {/* //TOKEN */}
         <section>
-          <div className="section-content h-screen flex flex-col justify-center items-center">
+          <div className="section-content relative h-screen flex flex-col justify-center items-center">
             <p className="flex text-4xl w-32 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
               TOKEN
             </p>
@@ -287,18 +250,18 @@ function App() {
                   />
                 </div>
               </div> */}
-              <div className="flex justify-center gap-5 items-center w-full">
-                <div className="bg-red-800 h-[700px] mr-[-100px] w-[300px] flex justify-center items-center z-10">
-                  <img
-                    className="object-cover opacity-10 w-[300px]  flex justify-center"
-                    src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
-                    alt=""
-                  />
-                </div>
+              <div className="flex justify-center items-center w-full">
                 <div className="h-full flex justify-center items-center">
-                  <div className="bg-blue-500 mr-[-100px] z-10">
+                  <div className="bg-red-800 h-[700px] mr-[-100px] w-[20%] flex justify-center items-center z-10">
                     <img
-                      className="h-[400px] object-cover"
+                      className="object-cover opacity-10 w-[300px]  flex justify-center"
+                      src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
+                      alt=""
+                    />
+                  </div>
+                  <div className="bg-blue-500 mr-[-20px] w-[40%] z-10">
+                    <img
+                      className="object-cover"
                       src="https://images.unsplash.com/photo-1707949576610-a373542c77df?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt=""
                     />
@@ -313,50 +276,53 @@ function App() {
                 </div>
               </div>
 
-              <div className="relative">
-                <div className="absolute bottom-2 py-2 -end-4 w-[800px] -z-10 transform -rotate-[30deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
-                  <div className="py-1 animate-marquee whitespace-nowrap">
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  </div>
+              {/* <div className="relative"> */}
+              <div className="absolute bottom-16 py-2 -end-32 w-[800px] -z-10 transform -rotate-[30deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
+                <div className="py-1 animate-marquee whitespace-nowrap">
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                </div>
 
-                  <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                    <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  </div>
+                <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
                 </div>
               </div>
+              {/* </div> */}
             </div>
           </div>
         </section>
 
+        {/* //TEAM */}
         <section>
-          <div className="section-content flex flex-col justify-evenly items-center h-screen">
+          <div className="section-content flex flex-col justify-center gap-20 items-center h-screen">
             <div id="TEAM">
-              <p className="flex justify-center items-center text-4xl w-32 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
+              <p className="flex justify-center items-center text-4xl w-64 h-20 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                 TEAM
               </p>
             </div>
-            <div className="flex flex-wrap gap-1 justify-evenly w-full">
+            <div className="flex flex-wrap gap-10 justify-center w-full">
               {imgList?.map(item => {
                 return (
-                  <div
-                    key={item.name}
-                    className="relative bg-red-100 transform -skew-x-3 h-[400px] w-[200px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
-                  >
-                    <img
-                      className="object-cover h-full"
-                      src={item.link}
-                      alt={item.name}
-                    />
-                    <div className="absolute bottom-2 -left-2 transform -skew-x-3 bg-black text-white">
-                      {item.name}
+                  <div className="threeDCard">
+                    <div
+                      key={item.name}
+                      className="relative bg-red-100 transform -skew-x-3 h-[400px] w-[200px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+                    >
+                      <img
+                        className="object-cover h-full"
+                        src={item.link}
+                        alt={item.name}
+                      />
+                      <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
+                        {item.name}
+                      </div>
                     </div>
                   </div>
                 );
@@ -365,7 +331,8 @@ function App() {
           </div>
         </section>
 
-        <section className="h-screen">
+        {/* //JOIN TELEGRAM */}
+        <section>
           <div className="section-content">
             <div className="w-full flex justify-center mb-4">
               <p className="flex justify-center items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">

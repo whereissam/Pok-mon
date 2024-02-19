@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
-// Import Swiper styles
 import 'swiper/css';
-// import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
-// import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import './swiper.css';
