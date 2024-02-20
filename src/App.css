@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 .fill {
-  margin: 20px auto;
+  margin-top: 20px;
+  margin-left: -140px;
   text-align: center;
-  font-size: 140px;
+  font-size: 160px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px black;
+  z-index: -20;
 }
 
 .threeDCard {

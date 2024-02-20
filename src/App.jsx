@@ -7,23 +7,23 @@ function App() {
   const imgList = [
     {
       name: 'Alex',
-      link: '../src/assets/section5/alex.png',
+      link: 'images/section5/alex.png',
     },
     {
       name: 'Mario',
-      link: '../src/assets/section5/mario.png',
+      link: 'images/section5/mario.png',
     },
     {
       name: 'Ueder',
-      link: '../src/assets/section5/ueder.png',
+      link: 'images/section5/ueder.png',
     },
     {
       name: 'Max',
-      link: '../src/assets/section5/max.png',
+      link: 'images/section5/max.png',
     },
     {
       name: 'Travis',
-      link: '../src/assets/section5/travis.png',
+      link: 'images/section5/travis.png',
     },
   ];
 
@@ -36,7 +36,7 @@ function App() {
           <div className="section-content ">
             <img
               className="w-full h-[110vh] object-cover"
-              src="../src/assets/section1/background1.png"
+              src="images/section1/background1.png"
               alt="Girl in a jacket"
             />
             <div className="relative -top-5 text-5xl font-extrabold flex overflow-x-hidden rotate-[0.5deg] border-b-8 bg-[#F7BC1A] border-black">
@@ -61,19 +61,22 @@ function App() {
 
         {/* //BLOCKCHAIN */}
         <section>
-          <div className="section-content h-screen">
-            <div className="text-title-section" id="BLOCKCHAIN">
-              BLOCKCHAIN
-            </div>
+          <div className="section-content h-screen relative -mt-7">
             <PokemonTabs />
           </div>
         </section>
 
         {/* //LEARN MORE */}
         <section>
-          <div className="section-content relative mt-32 h-[200vh]">
+          <div className="section-content relative -mt-20">
+            <img
+              src="images/section3/background.png"
+              className="absolute -z-20"
+              alt=""
+            />
+
             <div className="w-full flex justify-center py-12">
-              <p className="flex justify-center items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
+              <p className="flex justify-center mt-20 items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                 LEARN MORE
               </p>
             </div>
@@ -114,9 +117,9 @@ function App() {
               </div>
             </div>
 
-            <div className="flex justify-between my-6">
-              <div className="w-1/4"></div>
-              <div className="flex items-center w-3/4">
+            <div className="flex justify-between items-center my-6 ">
+              <div className="w-1/4 bg-red-600"></div>
+              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
                 <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
                   <iframe
                     width="560"
@@ -128,58 +131,78 @@ function App() {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div className="bg-red-500 h-[450px] w-full flex flex-row justify-center">
-                  <div className="w-1/2 pl-32 ">
+                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+                  <div>
+                    <img
+                      src="images/section3/sectionBG.png"
+                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="w-1/2 pl-32">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        GET $PKM TOKENS
+                        {/* GET $PKM TOKENS */}
+                        <img src="images/section3/word0.png" alt="" />
                       </p>
-                      <p className="p-2">
+                      <p className="p-2 text-xl">
                         Learn about the $PKMgovernance token and itsutilities in
                         the eco-
                       </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center items-center bg-yellow-500 p-2 text-4xl font-extrabold">
+                      <p className="h-16 flex justify-center items-center bg-yellow-400 p-2 text-4xl font-extrabold">
                         VIEW TOUR
                       </p>
                     </div>
                   </div>
-                  <div className="w-1/2">
+                  <div className="w-1/2 relative">
                     <img
-                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/ps16mkvp2g4eaxox2umc5lkj7872bvae7f2018fb46-a6b1-4bfe-931b-64fd9049cf81"
+                      src="images/section3/char0.png"
                       alt=""
+                      className="absolute -top-20 -left-20"
                     />
                   </div>
                 </div>
               </div>
             </div>
             <div className="flex justify-between my-32">
-              <div className="flex items-center w-3/4">
-                <div className="bg-red-500 h-[450px] w-full flex flex-row justify-center">
-                  <div className="w-1/2">
+              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
+                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+                  <div>
                     <img
-                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/pszi99nehkvfnloozoxqaanfypmks0o490d49cc6-5907-4965-86f2-47f97b452ae4"
-                      alt="pokemon2"
+                      src="images/section3/sectionBG.png"
+                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      alt=""
                     />
                   </div>
-                  <div className="w-1/2 pr-32 ">
+
+                  <div className="w-1/2 relative h-full">
+                    <img
+                      src="images/section3/char1.png"
+                      alt=""
+                      className="absolute scale-125 -z-10"
+                    />
+                  </div>
+                  <div className="w-1/2 pr-32">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        JOIN THE GAME
+                        <img src="images/section3/word1.png" alt="" />
                       </p>
-                      <span className="text_7 text-white w-[341px] h-[56px] text-[25px] font-extrabold ">
-                        Download&nbsp;the&nbsp;game&nbsp;on&nbsp;iosor&nbsp;Android&nbsp;mobile&nbsp;devices.
-                      </span>
+                      <p className="p-2 text-xl">
+                        Learn about the $PKMgovernance token and itsutilities in
+                        the eco-
+                      </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center items-center bg-yellow-500 p-2 text-4xl font-extrabold">
-                        DOWNLOAD
+                      <p className="h-16 flex justify-center items-center bg-yellow-400 p-2 text-4xl font-extrabold">
+                        VIEW TOUR
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
+                <div className="bg-blue-500 h-[315px] w-[560px] ml-[-100px]   z-10">
                   <iframe
                     width="560"
                     height="315"
@@ -193,10 +216,10 @@ function App() {
               </div>
               <div className="w-1/4"></div>
             </div>
-            <div className="flex justify-between my-6">
-              <div className="w-1/4"></div>
-              <div className="flex items-center w-3/4">
-                <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px] z-10">
+            <div className="flex justify-between items-center my-6 ">
+              <div className="w-1/4 bg-red-600"></div>
+              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
+                <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
                   <iframe
                     width="560"
                     height="315"
@@ -207,26 +230,36 @@ function App() {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div className="bg-red-500 h-[450px] w-full flex flex-row justify-center">
-                  <div className="w-1/2 pl-32 ">
+                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+                  <div>
+                    <img
+                      src="images/section3/sectionBG.png"
+                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="w-1/2 pl-32">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        INVITE FRIEND
+                        <img src="images/section3/word2.png" alt="" />
                       </p>
-                      <span className="text_9 w-[330px] h-[59px] text-white break-words font-extrabold">
-                        Climb&nbsp;the&nbsp;$PKM&nbsp;leaderboard&nbsp;by&nbsp;inviting&nbsp;your&nbsp;friends&nbsp;with&nbsp;your&nbsp;code
-                      </span>
+                      <p className="p-2 text-xl">
+                        Climb the $PKM leaderboard by inviting your friends with
+                        your code
+                      </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center items-center bg-yellow-500 p-2 text-4xl font-extrabold">
+                      <p className="h-16 flex justify-center items-center bg-yellow-400 p-2 text-4xl font-extrabold">
                         CODE HERE
                       </p>
                     </div>
                   </div>
-                  <div className="w-1/2">
+                  <div className="w-1/2 relative">
                     <img
-                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/psj4b7uhw71tw6dadrunllcoiprz2mikpq0700dcf1-5559-4987-b011-a1aa559c3378"
+                      src="images/section3/char2.png"
                       alt=""
+                      className="absolute -z-10 -left-20"
                     />
                   </div>
                 </div>
@@ -237,72 +270,66 @@ function App() {
 
         {/* //TOKEN */}
         <section>
-          <div className="section-content relative h-screen flex flex-col justify-center items-center">
-            <p className="flex text-4xl w-32 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
-              TOKEN
-            </p>
-            <div className="flex flex-row w-full justify-evenly">
-              {/* <div className="relative">
-                <div className="absolute left-[15%] bg-red-300 w-[300px] h-[500px] ">
+          <div className="section-content relative h-screen mt-32">
+            <img
+              src="images/section4/background.png"
+              className="absolute -z-20"
+              alt=""
+            />
+            <div className="flex justify-center items-start w-full">
+              <div className="h-full flex justify-center items-center">
+                <div className="h-[700px] mr-[-100px] w-[20%] flex justify-center z-10">
                   <img
-                    className="h-64 w-72 opacity-60"
-                    src="https://images.unsplash.com/photo-1707653056939-5bf9eae73228?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="token3"
+                    className="object-cover w-[408px] h-[749px]"
+                    src="images/section4/redImage.png"
+                    alt=""
                   />
                 </div>
-              </div> */}
-              <div className="flex justify-center items-center w-full">
-                <div className="h-full flex justify-center items-center">
-                  <div className="bg-red-800 h-[700px] mr-[-100px] w-[20%] flex justify-center items-center z-10">
-                    <img
-                      className="object-cover opacity-10 w-[300px]  flex justify-center"
-                      src="../src/assets/section4/pika1.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="mr-[-20px] w-[40%] z-10">
-                    <img
-                      className="object-cover"
-                      src="../src/assets/section4/pika1.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="bg-red-500">
-                    <img
-                      className="h-[500px] object-cover"
-                      src="../src/assets/section4/token.png"
-                      alt=""
-                    />
-                  </div>
+                <div className="mr-[-20px] w-[40%] z-10">
+                  <img
+                    className="object-cover"
+                    src="images/section4/pika1.png"
+                    alt=""
+                  />
+                </div>
+                <div className="bg-red-500">
+                  <img
+                    className="h-[500px] object-cover"
+                    src="images/section4/token.png"
+                    alt=""
+                  />
                 </div>
               </div>
+            </div>
 
-              {/* <div className="relative"> */}
-              <div className="absolute bottom-16 py-2 -end-32 w-[800px] -z-10 transform -rotate-[30deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
-                <div className="py-1 animate-marquee whitespace-nowrap">
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                </div>
-
-                <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                  <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                </div>
+            <div className="absolute bottom-16 py-2 -end-32 w-[800px] -z-10 transform -rotate-[30deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
+              <div className="py-1 animate-marquee whitespace-nowrap">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
               </div>
-              {/* </div> */}
+
+              <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
+              </div>
             </div>
           </div>
         </section>
 
         {/* //TEAM */}
         <section>
-          <div className="section-content flex flex-col justify-center gap-20 items-center h-screen">
+          <div className="section-content flex flex-col justify-center gap-20 items-center h-screen -top-10">
+            <img
+              src="images/section5/background.png"
+              className="absolute -z-20"
+              alt="section5"
+            />
             <div id="TEAM">
               <p className="flex justify-center items-center text-4xl w-64 h-20 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                 TEAM
@@ -335,7 +362,12 @@ function App() {
         {/* //JOIN TELEGRAM */}
         <section>
           <div className="section-content">
-            <div className="w-full flex justify-center mb-4">
+            <img
+              src="images/section6/background.png"
+              className="absolute -z-20"
+              alt="section6"
+            />
+            <div className="w-full flex justify-center mb-4 pt-32">
               <p className="flex justify-center items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                 JOIN TELEGRAM
               </p>

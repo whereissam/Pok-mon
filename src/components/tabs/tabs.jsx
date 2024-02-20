@@ -29,7 +29,7 @@ const ImageTabs = () => (
       value="tab1"
     >
       <fieldset className="mb-[15px] w-full flex flex-col justify-start">
-        <iframe
+        {/* <iframe
           width="421"
           height="249s"
           src="https://www.youtube.com/embed/Av_ap5UDOAE?si=6hRK11n6TwjRRsP4&autoplay=1&mute=1&loop=1&playlist=Av_ap5UDOAE"
@@ -37,7 +37,12 @@ const ImageTabs = () => (
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+        ></iframe> */}
+        <img
+          src="images/section2/videoAlt.png"
+          className="w-[421px] h-[249px]"
+          alt=""
+        />
       </fieldset>
     </Tabs.Content>
     <Tabs.List className="shrink-0 flex gap-4" aria-label="Manage your account">
@@ -45,32 +50,19 @@ const ImageTabs = () => (
         className="bg-white hover:border-red-600 hover:border-4 w-16 h-16 rounded-full flex justify-center items-center"
         value="tab0"
       >
-        <img
-          src="https://lanhu.oss-cn-beijing.aliyuncs.com/psprkpzeh9belq0rpqbi3r6kzlqfqtmj0ma7c4beadc-ed60-4ecb-bbbe-c88951113743"
-          alt=""
-        />
+        <img src="images/section2/circle0.png" alt="" />
       </Tabs.Trigger>
       <Tabs.Trigger
         className="bg-white hover:border-red-600 hover:border-4 w-16 h-16 rounded-full flex justify-center items-center"
         value="tab1"
       >
-        <img
-          className="image_7"
-          src={
-            'https://lanhu.oss-cn-beijing.aliyuncs.com/psfaub83es715dx1unddvgyqbq6yggemy0fde4a4780-bc06-4b99-b12b-d303ca761a0f'
-          }
-        />
+        <img className="image_7" src={'images/section2/circle1.png'} alt="" />
       </Tabs.Trigger>
       <Tabs.Trigger
         className="bg-white hover:border-red-600 hover:border-4 w-16 h-16 rounded-full flex justify-center items-center"
         value="tab2"
       >
-        <img
-          className="image_8"
-          src={
-            'https://lanhu.oss-cn-beijing.aliyuncs.com/pshv925e82niurwn21489bi9pj6zmrwh9f965d5942e-a4b8-4034-8573-e7e8e00badf2'
-          }
-        />
+        <img className="image_8" src={'images/section2/circle2.png'} alt="" />
       </Tabs.Trigger>
     </Tabs.List>
     {/* <Tabs.Content
