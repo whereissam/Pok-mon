@@ -36,31 +36,19 @@ export default function SwiperComponent() {
           className="mySwiperTop"
         >
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psglt21spndrmwivbsfxek6qprh6uuo5y8e06f923e-c5da-48bc-af80-f760d8555fda" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psvskkcsj54aiq8sgolgl2qeuaxjumjz1hcf34cbd7e-f8c8-46e6-80e2-ae82e15bfde8" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/pscqykarykp4qo6r3bteox7j9rwh7d4e3k1af8c844-5c2f-4c9c-968f-509bbe7420d4" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psccfvls576m52dicaw9hy78w6n51fa1y88a90cd69-619a-4eb5-9e85-eab0731597b1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psmjkdg8kbod9v8bxp9lr37ks6fm7w8of90c203e1-f5fe-42eb-98f4-17512ffa54c4" />
           </SwiperSlide>
         </Swiper>
 
@@ -76,34 +64,19 @@ export default function SwiperComponent() {
           height={100}
         >
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psglt21spndrmwivbsfxek6qprh6uuo5y8e06f923e-c5da-48bc-af80-f760d8555fda" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psvskkcsj54aiq8sgolgl2qeuaxjumjz1hcf34cbd7e-f8c8-46e6-80e2-ae82e15bfde8" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/pscqykarykp4qo6r3bteox7j9rwh7d4e3k1af8c844-5c2f-4c9c-968f-509bbe7420d4" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psccfvls576m52dicaw9hy78w6n51fa1y88a90cd69-619a-4eb5-9e85-eab0731597b1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+            <img src="https://lanhu.oss-cn-beijing.aliyuncs.com/psmjkdg8kbod9v8bxp9lr37ks6fm7w8of90c203e1-f5fe-42eb-98f4-17512ffa54c4" />
           </SwiperSlide>
         </Swiper>
       </div>

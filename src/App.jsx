@@ -7,23 +7,23 @@ function App() {
   const imgList = [
     {
       name: 'Alex',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '../src/assets/section5/alex.png',
     },
     {
       name: 'Mario',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '../src/assets/section5/mario.png',
     },
     {
       name: 'Ueder',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '../src/assets/section5/ueder.png',
     },
     {
       name: 'Max',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '../src/assets/section5/max.png',
     },
     {
       name: 'Travis',
-      link: 'https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?q=80&w=1881&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      link: '../src/assets/section5/travis.png',
     },
   ];
 
@@ -36,7 +36,7 @@ function App() {
           <div className="section-content ">
             <img
               className="w-full h-[110vh] object-cover"
-              src="https://images.unsplash.com/photo-1690123629470-845b87224313?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="../src/assets/section1/background1.png"
               alt="Girl in a jacket"
             />
             <div className="relative -top-5 text-5xl font-extrabold flex overflow-x-hidden rotate-[0.5deg] border-b-8 bg-[#F7BC1A] border-black">
@@ -77,6 +77,8 @@ function App() {
                 LEARN MORE
               </p>
             </div>
+
+            {/* marquee */}
             <div className="absolute h-24 bottom-16 -start-32 w-[900px] text-6xl font-extrabold -z-10 transform rotate-[20deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
               <div className="py-6 animate-marquee whitespace-nowrap ">
                 <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
@@ -111,6 +113,7 @@ function App() {
                 <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
               </div>
             </div>
+
             <div className="flex justify-between my-6">
               <div className="w-1/4"></div>
               <div className="flex items-center w-3/4">
@@ -144,7 +147,7 @@ function App() {
                   </div>
                   <div className="w-1/2">
                     <img
-                      src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
+                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/ps16mkvp2g4eaxox2umc5lkj7872bvae7f2018fb46-a6b1-4bfe-931b-64fd9049cf81"
                       alt=""
                     />
                   </div>
@@ -156,23 +159,22 @@ function App() {
                 <div className="bg-red-500 h-[450px] w-full flex flex-row justify-center">
                   <div className="w-1/2">
                     <img
-                      src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
-                      alt=""
+                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/pszi99nehkvfnloozoxqaanfypmks0o490d49cc6-5907-4965-86f2-47f97b452ae4"
+                      alt="pokemon2"
                     />
                   </div>
                   <div className="w-1/2 pr-32 ">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        GET $PKM TOKENS
+                        JOIN THE GAME
                       </p>
-                      <p className="p-2">
-                        Learn about the $PKMgovernance token and itsutilities in
-                        the eco-
-                      </p>
+                      <span className="text_7 text-white w-[341px] h-[56px] text-[25px] font-extrabold ">
+                        Download&nbsp;the&nbsp;game&nbsp;on&nbsp;iosor&nbsp;Android&nbsp;mobile&nbsp;devices.
+                      </span>
                     </div>
                     <div className="h-1/3 flex">
                       <p className="h-16 flex justify-center items-center bg-yellow-500 p-2 text-4xl font-extrabold">
-                        VIEW TOUR
+                        DOWNLOAD
                       </p>
                     </div>
                   </div>
@@ -209,22 +211,21 @@ function App() {
                   <div className="w-1/2 pl-32 ">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        GET $PKM TOKENS
+                        INVITE FRIEND
                       </p>
-                      <p className="p-2">
-                        Learn about the $PKMgovernance token and itsutilities in
-                        the eco-
-                      </p>
+                      <span className="text_9 w-[330px] h-[59px] text-white break-words font-extrabold">
+                        Climb&nbsp;the&nbsp;$PKM&nbsp;leaderboard&nbsp;by&nbsp;inviting&nbsp;your&nbsp;friends&nbsp;with&nbsp;your&nbsp;code
+                      </span>
                     </div>
                     <div className="h-1/3 flex">
                       <p className="h-16 flex justify-center items-center bg-yellow-500 p-2 text-4xl font-extrabold">
-                        VIEW TOUR
+                        CODE HERE
                       </p>
                     </div>
                   </div>
                   <div className="w-1/2">
                     <img
-                      src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
+                      src="https://lanhu.oss-cn-beijing.aliyuncs.com/psj4b7uhw71tw6dadrunllcoiprz2mikpq0700dcf1-5559-4987-b011-a1aa559c3378"
                       alt=""
                     />
                   </div>
@@ -255,21 +256,21 @@ function App() {
                   <div className="bg-red-800 h-[700px] mr-[-100px] w-[20%] flex justify-center items-center z-10">
                     <img
                       className="object-cover opacity-10 w-[300px]  flex justify-center"
-                      src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"
+                      src="../src/assets/section4/pika1.png"
                       alt=""
                     />
                   </div>
-                  <div className="bg-blue-500 mr-[-20px] w-[40%] z-10">
+                  <div className="mr-[-20px] w-[40%] z-10">
                     <img
                       className="object-cover"
-                      src="https://images.unsplash.com/photo-1707949576610-a373542c77df?q=80&w=1858&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      src="../src/assets/section4/pika1.png"
                       alt=""
                     />
                   </div>
                   <div className="bg-red-500">
                     <img
                       className="h-[500px] object-cover"
-                      src="https://images.unsplash.com/photo-1707653057279-b94dff636f62?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      src="../src/assets/section4/token.png"
                       alt=""
                     />
                   </div>
