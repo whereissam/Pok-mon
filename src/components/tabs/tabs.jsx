@@ -40,7 +40,7 @@ const ImageTabs = () => (
         ></iframe> */}
         <img
           src="images/section2/videoAlt.png"
-          className="w-[421px] h-[249px]"
+          className="w-[350px] h-[200px] 2xl:w-[421px] 2xl:h-[249px]"
           alt=""
         />
       </fieldset>

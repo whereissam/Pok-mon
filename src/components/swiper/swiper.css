@@ -1,18 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .swiper-slide {
   background-position: center;
   background-size: cover;
   width: 800px;
-  height: 500px;
+  /* height: 500px; */
+}
+
+@media (width <= 1250px) {
+  /* … */
 }
 
 .mySwiperTop {
-  height: 28rem;
+  margin-top: 40px;
+
+  @apply h-[20rem] 2xl:h-[28rem];
+}
+
+.mySwiperTop > .swiper-wrapper {
+  transition-duration: 0ms;
+  transform: translate3d(-0.528293px, 0px, -0.950928px) rotateX(0deg)
+    rotateY(0deg) scale(1.5);
+  z-index: 1;
 }
 
 .mySwiperTop > .swiper-wrapper > .swiper-slide-active {
   transition-duration: 0ms;
   transform: translate3d(-0.528293px, 0px, -0.950928px) rotateX(0deg)
-    rotateY(0deg) scale(1.5);
+    rotateY(0deg);
   z-index: 1;
 }
 
@@ -44,23 +61,27 @@
 }
 
 .swiper-free-mode {
-  margin-top: 20px;
-  width: 80%;
+  /* margin-top: 20px; */
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-free-mode .swiper-slide {
-  width: 25%;
-  height: 100%;
   opacity: 0.4;
 }
 
 .swiper-free-mode .swiper-slide-thumb-active {
   border: 1px black solid;
   opacity: 1;
+  height: 108px;
+  width: 193px;
+  margin-right: 5px important!;
 }
 
 .swiper-free-mode > .swiper-wrapper > .swiper-slide > img {
-  height: 200px;
+  height: 108px;
+  width: 193px;
   object-fit: cover;
-  width: 100%;
 }

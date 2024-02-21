@@ -81,45 +81,9 @@ function App() {
               </p>
             </div>
 
-            {/* marquee */}
-            <div className="absolute h-24 bottom-16 -start-32 w-[900px] text-6xl font-extrabold -z-10 transform rotate-[20deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
-              <div className="py-6 animate-marquee whitespace-nowrap ">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-              </div>
-
-              <div className="absolute top-0 py-6 animate-marquee2 whitespace-nowrap">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-              </div>
-            </div>
-            <div className="absolute top-32 py-2 -end-12 w-[800px] -z-10 transform rotate-[20deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
-              <div className="py-1 animate-marquee whitespace-nowrap">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-              </div>
-
-              <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-              </div>
-            </div>
-
             <div className="flex justify-between items-center my-6 ">
-              <div className="w-1/4 bg-red-600"></div>
-              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
+              <div className="2xl:w-1/4 bg-red-600"></div>
+              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
                 <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
                   <iframe
                     width="560"
@@ -131,11 +95,11 @@ function App() {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+                <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
                       src="images/section3/sectionBG.png"
-                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      className="absolute -z-10 h-[400px] 2xl:h-[497px] w-[1152px]"
                       alt=""
                     />
                   </div>
@@ -143,7 +107,6 @@ function App() {
                   <div className="w-1/2 pl-32">
                     <div className="h-2/3 flex flex-col items-center justify-center">
                       <p className="p-2 w-full text-4xl font-extrabold flex items-center">
-                        {/* GET $PKM TOKENS */}
                         <img src="images/section3/word0.png" alt="" />
                       </p>
                       <p className="p-2 text-xl">
@@ -152,7 +115,7 @@ function App() {
                       </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center items-center bg-yellow-400 p-2 text-4xl font-extrabold">
+                      <p className="h-16 flex justify-center w-48 items-center bg-yellow-400 p-2 text-2xl 2xl:text-4xl font-extrabold">
                         VIEW TOUR
                       </p>
                     </div>
@@ -161,19 +124,19 @@ function App() {
                     <img
                       src="images/section3/char0.png"
                       alt=""
-                      className="absolute -top-20 -left-20"
+                      className="absolute -top-20 2xl:-left-20"
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex justify-between my-32">
-              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
-                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+            <div className="flex justify-between">
+              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
+                <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
                       src="images/section3/sectionBG.png"
-                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      className="absolute -z-10 h-[400px] 2xl:h-[497px] w-[1152px]"
                       alt=""
                     />
                   </div>
@@ -196,8 +159,8 @@ function App() {
                       </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center items-center bg-yellow-400 p-2 text-4xl font-extrabold">
-                        VIEW TOUR
+                      <p className="h-16 flex justify-center w-48 items-center bg-yellow-400 p-2 text-2xl 2xl:text-4xl font-extrabold">
+                        DOWNLOAD
                       </p>
                     </div>
                   </div>
@@ -214,11 +177,11 @@ function App() {
                   ></iframe>
                 </div>
               </div>
-              <div className="w-1/4"></div>
+              <div className="2xl:w-1/4"></div>
             </div>
-            <div className="flex justify-between items-center my-6 ">
-              <div className="w-1/4 bg-red-600"></div>
-              <div className="flex justify-end items-center w-3/4 h-[30rem] relative">
+            <div className="flex justify-between items-center">
+              <div className="2xl:w-1/4 bg-red-600"></div>
+              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
                 <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
                   <iframe
                     width="560"
@@ -230,11 +193,11 @@ function App() {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div className="relative h-[497px] w-[1152px] flex flex-row justify-center ">
+                <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
                       src="images/section3/sectionBG.png"
-                      className="absolute -z-10 h-[497px] w-[1152px]"
+                      className="absolute -z-10 h-[400px] 2xl:h-[497px] w-[1152px]"
                       alt=""
                     />
                   </div>
@@ -270,7 +233,7 @@ function App() {
 
         {/* //TOKEN */}
         <section>
-          <div className="section-content relative h-screen mt-32">
+          <div className="section-content relative h-screen 2xl:mt-40">
             <img
               src="images/section4/background.png"
               className="absolute -z-20"
@@ -280,12 +243,12 @@ function App() {
               <div className="h-full flex justify-center items-center">
                 <div className="h-[700px] mr-[-100px] w-[20%] flex justify-center z-10">
                   <img
-                    className="object-cover w-[408px] h-[749px]"
+                    className="object-cover w-[408px] h-3/4 2xl:h-[749px]"
                     src="images/section4/redImage.png"
                     alt=""
                   />
                 </div>
-                <div className="mr-[-20px] w-[40%] z-10">
+                <div className="mr-[-20px] w-[30%] 2xl:w-[40%] z-10">
                   <img
                     className="object-cover"
                     src="images/section4/pika1.png"
@@ -294,29 +257,11 @@ function App() {
                 </div>
                 <div className="bg-red-500">
                   <img
-                    className="h-[500px] object-cover"
+                    className="h-[400px] 2xl:h-[500px] object-cover"
                     src="images/section4/token.png"
                     alt=""
                   />
                 </div>
-              </div>
-            </div>
-
-            <div className="absolute bottom-16 py-2 -end-32 w-[800px] -z-10 transform -rotate-[30deg]  flex overflow-x-hidden border-b-8 bg-[#F7BC1A] border-black">
-              <div className="py-1 animate-marquee whitespace-nowrap">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-              </div>
-
-              <div className="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
-                <span className="text-2xl mx-4">POKÉMONPIKACHU</span>
               </div>
             </div>
           </div>
@@ -324,7 +269,7 @@ function App() {
 
         {/* //TEAM */}
         <section>
-          <div className="section-content flex flex-col justify-center gap-20 items-center h-screen -top-10">
+          <div className="section-content flex flex-col justify-center gap-20 items-center h-screen 2xl:-top-40">
             <img
               src="images/section5/background.png"
               className="absolute -z-20"
@@ -341,7 +286,7 @@ function App() {
                   <div className="threeDCard">
                     <div
                       key={item.name}
-                      className="relative bg-red-100 transform -skew-x-3 h-[400px] w-[200px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+                      className="relative transform -skew-x-3 h-[300px] w-[150px] 2xl:h-[400px] 2xl:w-[200px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
                     >
                       <img
                         className="object-cover h-full"

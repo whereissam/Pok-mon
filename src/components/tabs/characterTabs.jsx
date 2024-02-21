@@ -8,7 +8,7 @@ const CharacterTabs = () => {
     <>
       <Tabs.Root className="flex justify-center" defaultValue="characterTab0">
         <Tabs.List
-          className="shrink-0 flex mr-[20px] flex-col gap-4 justify-center"
+          className="shrink-0 flex mr-[48px] flex-col gap-4 justify-center"
           aria-label="your account"
         >
           <Tabs.Trigger className="h-[86px] w-[130px]" value="characterTab0">
@@ -23,7 +23,7 @@ const CharacterTabs = () => {
           </Tabs.Trigger>
         </Tabs.List>
 
-        <Tabs.Content className="" value="characterTab0">
+        <Tabs.Content className="ml-10" value="characterTab0">
           <fieldset className="h-[100%] w-[100%] mx-auto flex justify-center">
             <div className="h-full w-1/3 flex gap-4 justify-center items-end">
               <div className="w-1/3 h-1/2 flex flex-col gap-4"></div>
@@ -39,12 +39,15 @@ const CharacterTabs = () => {
             <div className="w-1/3 h-[100%]">
               <div className="h-[90%] start-6 flex flex-col justify-center">
                 <div className="relative -rotate-[15deg] h-[15%]">
-                  <p className="fill absolute -top-32" data-text="GENOS">
+                  <p
+                    className="hidden lg:absolute  fill  -top-32"
+                    data-text="GENOS"
+                  >
                     GENOS
                   </p>
                 </div>
-                <div className="h-2/3 flex flex-col ml-20 justify-start items-start">
-                  <p className="font-extrabold text-8xl mb-10">
+                <div className="h-2/3 flex flex-col 2xl:ml-20 justify-start items-start">
+                  <p className="hidden lg:block font-extrabold text-6xl 2xl:text-8xl mb-10">
                     CONNECT WALLET
                   </p>
                   <p className="h-48 w-[25rem] text-2xl text-white font-bold">

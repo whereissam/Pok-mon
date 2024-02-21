@@ -19,6 +19,7 @@ export default function SwiperComponent() {
       <div className="">
         <Swiper
           effect={'coverflow'}
+          loop={true}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={3}
@@ -61,6 +62,10 @@ export default function SwiperComponent() {
           watchSlidesProgress={true}
           modules={[FreeMode, Navigation, Thumbs]}
           className="mySwiperDown"
+          style={{
+            width: '800px',
+            height: '100px',
+          }}
         >
           <SwiperSlide>
             <img src="images/section6/pic1.png" />
