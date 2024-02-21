@@ -81,11 +81,20 @@ function App() {
               </p>
             </div>
 
-            <div className="flex justify-between items-center my-6 ">
+            <div className="flex justify-between items-center">
               <div className="2xl:w-1/4 bg-red-600"></div>
-              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
-                <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
-                  <iframe
+              <div className="flex justify-end items-center w-8/12 2xl:w-3/4 h-[30rem] relative">
+                <div className="absolute -left-72 2xl:-left-48">
+                  <img
+                    src="images/section3/videoAlt0.png"
+                    className="w-[400px] 2xl:h-[315px] 2xl:w-[560px] z-10"
+                    alt="videlAlt0"
+                  />
+                </div>
+
+                {/* <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px] z-10">
+                  <img src="images/section3/videoAlt0.png" className='' alt="videlAlt0" /> */}
+                {/* <iframe
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/Av_ap5UDOAE?si=6hRK11n6TwjRRsP4&autoplay=1&mute=1&loop=1&playlist=Av_ap5UDOAE"
@@ -93,8 +102,8 @@ function App() {
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
-                  ></iframe>
-                </div>
+                  ></iframe> */}
+                {/* </div> */}
                 <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
@@ -115,7 +124,7 @@ function App() {
                       </p>
                     </div>
                     <div className="h-1/3 flex">
-                      <p className="h-16 flex justify-center w-48 items-center bg-yellow-400 p-2 text-2xl 2xl:text-4xl font-extrabold">
+                      <p className="h-16 flex justify-center w-60 items-center bg-yellow-400 p-2 text-2xl 2xl:text-4xl font-extrabold">
                         VIEW TOUR
                       </p>
                     </div>
@@ -130,8 +139,8 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between">
-              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
+            <div className="flex justify-between 2xl:py-20">
+              <div className="flex justify-start items-center w-8/12 2xl:w-3/4 h-[30rem] relative">
                 <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
@@ -165,7 +174,7 @@ function App() {
                     </div>
                   </div>
                 </div>
-                <div className="bg-blue-500 h-[315px] w-[560px] ml-[-100px]   z-10">
+                {/* <div className="bg-blue-500 h-[315px] w-[560px] ml-[-100px]   z-10">
                   <iframe
                     width="560"
                     height="315"
@@ -175,14 +184,28 @@ function App() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                   ></iframe>
+                </div> */}
+                <div className="absolute -right-72 2xl:-right-48">
+                  <img
+                    src="images/section3/videoAlt1.png"
+                    className="w-[400px] 2xl:h-[315px] 2xl:w-[560px] z-10"
+                    alt="videlAlt0"
+                  />
                 </div>
               </div>
               <div className="2xl:w-1/4"></div>
             </div>
             <div className="flex justify-between items-center">
               <div className="2xl:w-1/4 bg-red-600"></div>
-              <div className="flex justify-end items-center w-10/12 2xl:w-3/4 h-[30rem] relative">
-                <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
+              <div className="flex justify-end items-center w-8/12 2xl:w-3/4 h-[30rem] relative">
+                <div className="absolute -left-72 2xl:-left-48">
+                  <img
+                    src="images/section3/videoAlt2.png"
+                    className="w-[400px] 2xl:h-[315px] 2xl:w-[560px] z-10"
+                    alt="videlAlt0"
+                  />
+                </div>
+                {/* <div className="bg-blue-500 h-[315px] w-[560px] mr-[-100px]   z-10">
                   <iframe
                     width="560"
                     height="315"
@@ -192,7 +215,7 @@ function App() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                   ></iframe>
-                </div>
+                </div> */}
                 <div className="relative h-[400px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                   <div>
                     <img
@@ -248,16 +271,16 @@ function App() {
                     alt=""
                   />
                 </div>
-                <div className="mr-[-20px] w-[30%] 2xl:w-[40%] z-10">
+                <div className="mr-[-5px] w-[30%] 2xl:w-[40%] z-10">
                   <img
                     className="object-cover"
                     src="images/section4/pika1.png"
                     alt=""
                   />
                 </div>
-                <div className="bg-red-500">
+                <div className="bg-red-500 mb-20 2xl:mb-0">
                   <img
-                    className="h-[400px] 2xl:h-[500px] object-cover"
+                    className="h-[350px] 2xl:h-[500px] object-cover "
                     src="images/section4/token.png"
                     alt=""
                   />

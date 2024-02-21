@@ -16,7 +16,7 @@
 .mySwiperTop {
   margin-top: 40px;
 
-  @apply h-[20rem] 2xl:h-[28rem];
+  @apply h-[16rem] 2xl:h-[28rem];
 }
 
 .mySwiperTop > .swiper-wrapper {

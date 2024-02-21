@@ -38,7 +38,7 @@ const PokemonTabs = () => {
       <div className="h-[10%] flex mb-60 w-[95%] justify-center ">
         <div className="w-7/12"></div>
         <Tabs.List
-          className="shrink-0 flex flex-col gap-4 w-3/12 pl-5"
+          className="shrink-0 flex flex-col items-end justify-center gap-4 w-5/12"
           aria-label="Manage your account"
         >
           <div className="flex flex-wrap flex-col gap-4">

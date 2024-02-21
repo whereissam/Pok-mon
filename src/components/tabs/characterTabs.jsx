@@ -31,13 +31,13 @@ const CharacterTabs = () => {
                 <ImageTabs />
               </div>
             </div>
-            <div className="w-1/3 relative">
+            <div className="w-4/12 relative">
               <div className="absolute">
                 <img className="z-10" src="images/section2/chat.png" alt="" />
               </div>
             </div>
             <div className="w-1/3 h-[100%]">
-              <div className="h-[90%] start-6 flex flex-col justify-center">
+              <div className="h-[30%] 2xl:h-[90%] start-6 flex flex-col justify-center">
                 <div className="relative -rotate-[15deg] h-[15%]">
                   <p
                     className="hidden lg:absolute  fill  -top-32"
