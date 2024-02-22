@@ -36,7 +36,7 @@ const MobilePokemonTabs = () => {
         <CharacterTabs />
       </Tabs.Content>
 
-      <div className="flex w-full justify-center ">
+      <div className="flex w-full justify-center absolute -bottom-6">
         <Tabs.List
           className="shrink-0 flex justify-center gap-4"
           aria-label="Manage your account"

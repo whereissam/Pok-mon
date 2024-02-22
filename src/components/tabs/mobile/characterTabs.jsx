@@ -23,7 +23,7 @@ const CharacterTabs = () => {
         <Tabs.Content className="" value="characterTab1">
           <fieldset className="w-full h-full">
             <img
-              src="images/section2/videoAlt.png"
+              src="images/section2/videoAlt1.png"
               className="w-2/12 object-cover"
               alt=""
             />
