@@ -379,7 +379,7 @@ function App() {
 
           {/* //LEARN MORE */}
           <section>
-            <div className="section-content h-[173vh] relative">
+            <div className="section-content h-[180vh] relative">
               <div className="absolute -z-20">
                 <img
                   src="images/section3/background-mobile.png"
@@ -421,7 +421,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center mt-10">
+              <div className="flex flex-col justify-center items-center mt-20">
                 <img
                   className="w-[80%]"
                   src="images/section3/videoAlt1.png"
@@ -442,7 +442,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center mt-10">
+              <div className="flex flex-col justify-center items-center mt-20">
                 <img
                   className="w-[80%]"
                   src="images/section3/videoAlt2.png"
