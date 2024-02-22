@@ -73,20 +73,20 @@ function App() {
 
           {/* //LEARN MORE */}
           <section>
-            <div className="section-content relative h-[216.5vh] ">
+            <div className="section-content relative h-[216.5vh] 2xl:h-[212vh]">
               <img
                 src="images/section3/background.png"
                 className="absolute -z-20"
                 alt=""
               />
 
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center 2xl:py-20">
                 <p className="flex justify-center mt-20 items-center text-4xl w-80 h-16 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                   LEARN MORE
                 </p>
               </div>
 
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center 2xl:py-10">
                 <div className="2xl:w-1/4 bg-red-600"></div>
                 <div className="flex justify-end items-center w-8/12 2xl:w-3/4 h-[27rem] relative">
                   <div className="absolute -left-72 2xl:-left-48">
@@ -125,13 +125,13 @@ function App() {
                       <img
                         src="images/section3/char0.png"
                         alt=""
-                        className="absolute w-80 -top-20 2xl:-left-20"
+                        className="absolute w-80 2xl:w-[90%] -top-20 2xl:-left-20"
                       />
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="flex justify-between 2xl:py-20">
+              <div className="flex justify-between 2xl:py-40">
                 <div className="flex justify-start items-center w-8/12 2xl:w-3/4 h-[20rem] relative">
                   <div className="relative h-[300px] 2xl:h-[497px] w-[1152px] flex flex-row justify-center ">
                     <div>
@@ -237,7 +237,7 @@ function App() {
                       <img
                         src="images/section3/char2.png"
                         alt=""
-                        className="absolute w-80 -z-10"
+                        className="absolute w-80 2xl:w-[90%] -z-10"
                       />
                     </div>
                   </div>
