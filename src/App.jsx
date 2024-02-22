@@ -350,7 +350,7 @@ function App() {
                 src="images/section1/background1.png"
                 alt="Girl in a jacket"
               />
-              <div className="relative -top-5 text-5xl font-extrabold flex overflow-x-hidden rotate-[0.5deg] border-b-8 bg-[#F7BC1A] border-black">
+              <div className="relative -top-5 text-2xl font-extrabold flex overflow-x-hidden rotate-[0.5deg] border-b-8 bg-[#F7BC1A] border-black">
                 <div className="py-2 animate-marquee whitespace-nowrap">
                   <span className="mx-4">POKÉMONPIKACHU</span>
                   <span className="mx-4">POKÉMONPIKACHU</span>
@@ -492,7 +492,13 @@ function App() {
 
           {/* //TEAM */}
           <section>
-            <div className="section-content flex flex-col h-screen pt-10 justify-center gap-20 items-center relative bg-[url('images/section5/background-mobile.png')]">
+            <div className="section-content flex flex-col h-[82vh] pt-10 justify-center gap-20 items-center relative">
+              <img
+                src="images/section5/background-mobile.png"
+                className="absolute -z-20"
+                alt=""
+              />
+
               <div id="TEAM">
                 <p className="flex justify-center items-center text-4xl w-64 h-20 border-black border-b-8 font-extrabold bg-[#F7BC1A]">
                   TEAM
@@ -506,9 +512,6 @@ function App() {
                       src="images/section5/alex-mobile.png"
                       alt="alex"
                     />
-                    <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
-                      Alex
-                    </div>
                   </div>
                   <div className="relative transform -skew-x-3 h-[100px] w-[150px]">
                     <img
@@ -516,9 +519,6 @@ function App() {
                       src="images/section5/ueder-mobile.png"
                       alt="Ueder"
                     />
-                    <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
-                      Ueder
-                    </div>
                   </div>
                   <div className="relative transform -skew-x-3 h-[100px] w-[150px]">
                     <img
@@ -526,9 +526,6 @@ function App() {
                       src="images/section5/travis-mobile.png"
                       alt="Travis"
                     />
-                    <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
-                      Travis
-                    </div>
                   </div>
                 </div>
                 <div className="w-1/2 flex flex-col h-[90%] justify-evenly">
@@ -541,9 +538,6 @@ function App() {
                       src="images/section5/mario-mobile.png"
                       alt="Mario"
                     />
-                    <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
-                      Mario
-                    </div>
                   </div>
                   <div className="relative transform -skew-x-3 h-[100px] w-[150px]">
                     <img
@@ -551,9 +545,6 @@ function App() {
                       src="images/section5/max-mobile.png"
                       alt="Max"
                     />
-                    <div className="h-8 w-32 flex justify-start pl-4 items-center font-bold absolute bottom-4 -left-4 transform -skew-x-6 bg-black text-white border-b-2 border-[#A77375]">
-                      Max
-                    </div>
                   </div>
                 </div>
               </div>
