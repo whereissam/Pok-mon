@@ -24,6 +24,7 @@
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "swiper": "^11.0.6"
   },

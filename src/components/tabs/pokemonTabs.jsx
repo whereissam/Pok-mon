@@ -3,8 +3,6 @@ import React from 'react';
 
 import CharacterTabs from './characterTabs';
 
-// import ImageTabs from './tabs';
-
 const PokemonTabs = () => {
   const pokemonList = [
     {

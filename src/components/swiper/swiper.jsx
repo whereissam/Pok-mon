@@ -80,7 +80,7 @@ export default function SwiperComponent() {
             <img src="images/section6/pic4.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="images/section6/pic1.png" />
+            <img src="images/section6/pic5.png" />
           </SwiperSlide>
         </Swiper>
       </div>
