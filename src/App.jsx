@@ -399,7 +399,7 @@ function App() {
                 </p>
               </div>
 
-              <div className="flex flex-col justify-center items-center mt-10">
+              <div className="flex flex-col justify-center items-center mt-5">
                 <img
                   className="w-[80%]"
                   src="images/section3/videoAlt0.png"
@@ -421,7 +421,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center mt-20">
+              <div className="flex flex-col justify-center items-center mt-10">
                 <img
                   className="w-[80%]"
                   src="images/section3/videoAlt1.png"
@@ -442,7 +442,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center mt-28">
+              <div className="flex flex-col justify-center items-center mt-10">
                 <img
                   className="w-[80%]"
                   src="images/section3/videoAlt2.png"
@@ -492,7 +492,7 @@ function App() {
 
           {/* //TEAM */}
           <section>
-            <div className="section-content flex flex-col h-[82vh] pt-10 justify-center gap-20 items-center relative">
+            <div className="section-content flex flex-col h-[82vh] 2xl:pt-10 justify-center items-center relative">
               <img
                 src="images/section5/background-mobile.png"
                 className="absolute -z-20"
@@ -505,7 +505,7 @@ function App() {
                 </p>
               </div>
               <div className="flex flex-row h-full w-[80%]">
-                <div className="w-1/2 flex flex-col justify-evenly">
+                <div className="w-1/2 flex flex-col items-start justify-evenly">
                   <div className="relative transform -skew-x-3 h-[100px] w-[150px]">
                     <img
                       className="object-cover h-full"

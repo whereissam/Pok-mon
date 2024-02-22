@@ -35,6 +35,11 @@ export default function SwiperComponent() {
           modules={[Pagination, Thumbs]}
           initialSlide={1}
           className="myMobileSwiperTop"
+          style={{
+            width: '400px',
+            height: '300px',
+            transform: 'scale(1.5)',
+          }}
         >
           <SwiperSlide>
             <img src="images/section6/pic1-mobile.png" />
@@ -64,7 +69,7 @@ export default function SwiperComponent() {
           className="myMobileSwiperDown"
           style={{
             width: '300px',
-            height: '100px',
+            height: '200px',
           }}
         >
           <SwiperSlide>

@@ -28,11 +28,11 @@ const MobilePokemonTabs = () => {
       className="flex flex-col relative h-[500px] gap-2"
       defaultValue="tab0"
     >
-      <Tabs.Content className="w-full h-full mt-20" value="tab0">
+      <Tabs.Content className="w-full h-full mt-16" value="tab0">
         <CharacterTabs />
       </Tabs.Content>
 
-      <Tabs.Content className="w-full h-full mt-20" value="tab1">
+      <Tabs.Content className="w-full h-full mt-16" value="tab1">
         <CharacterTabs />
       </Tabs.Content>
 

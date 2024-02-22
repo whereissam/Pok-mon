@@ -3,16 +3,7 @@
 @tailwind utilities;
 
 .myMobileSwiperTop {
-  margin-top: 40px;
-
-  @apply h-[24rem];
-}
-
-.myMobileSwiperTop > .swiper-wrapper > .swiper-slide-active > img {
-  /* display: none; */
-  width: 200px;
-  transform: translate3d(-0.528293px, 0px, -0.950928px) rotateX(0deg)
-    rotateY(0deg) scale(1.5);
+  @apply h-[24rem] mt-32;
 }
 
 .myMobileSwiperTop > .swiper-wrapper > .swiper-slide-prev > img {
@@ -24,8 +15,6 @@
 }
 
 .myMobileSwiperDown {
-  /* margin-top: 20px; */
-  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,15 +25,12 @@
 }
 
 .myMobileSwiperDown .swiper-slide-thumb-active {
-  border: 1px black solid;
   opacity: 1;
   height: 108px;
   width: 60px;
-  margin-right: 5px important!;
 }
 
 .myMobileSwiperDown > .swiper-wrapper > .swiper-slide > img {
   height: 108px;
-  width: 60px;
   object-fit: cover;
 }
