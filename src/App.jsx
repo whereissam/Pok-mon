@@ -379,7 +379,7 @@ function App() {
 
           {/* //LEARN MORE */}
           <section>
-            <div className="section-content h-[200vh] relative">
+            <div className="section-content h-[190vh] relative">
               <div className="absolute -z-20">
                 <img
                   src="images/section3/background-mobile.png"
@@ -468,7 +468,7 @@ function App() {
 
           {/* //TOKEN */}
           <section>
-            <div className="section-content relative h-[95vh] ">
+            <div className="section-content relative h-[100vh] ">
               <img
                 src="images/section4/background-mobile.png"
                 className="absolute -z-20"
